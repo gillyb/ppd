@@ -8,9 +8,10 @@ To use this just create a bookmark, and in the url insert this :
 ```
 javascript:(function(){for(var t=document.querySelectorAll("div, span"),e=0,o=t.length;e<o;e++){var i=window.getComputedStyle(t[e]);"fixed"===i.position&&parseInt(i.width)>200&&parseInt(i.height)>200&&t[e].setAttribute("style","display: none!important")}var n=document.getElementsByTagName("body")[0];n.setAttribute("style",n.getAttribute("style")+"; overflow: auto!important")})();
 ```
+When you reach a site that shows the paywall, just click on the bookmark, and it should dissappear and the site should be 'usable' again!
   
   
-For the unminified version, look at the file `ppd.js` in this repo.  
+*For the unminified version, look at the file `ppd.js` in this repo.*  
 
 ## FAQ
 
