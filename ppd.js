@@ -9,4 +9,7 @@
   
 	var body = document.getElementsByTagName('body')[0];
 	body.setAttribute('style', body.getAttribute('style') + '; overflow: auto!important');
+	
+	// Removes blur from everything.
+	document.querySelectorAll('*').forEach(a => a.style.filter='blur()');
 })();
